@@ -1,0 +1,332 @@
+img {
+width: 240px;
+height: 33px;
+
+
+ }
+  .header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    /*align: center;*/
+    justify-content: space-between;
+   
+  }
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+ul li a {
+color: #ababab;
+letter-spacing: 0,2rem;
+text-decoration: none;
+
+}
+ul li a:hover{
+
+    color: rgb(0, 179, 155);
+    
+}
+.li {
+color: rgb(0, 179, 155);
+
+}
+body {
+
+  font-family: Roboto,Arial,sans-serif;
+}
+.petit_logo{
+    display: block;
+margin: auto;
+max-width: 40px;
+height: 40px;
+
+}
+.title0{
+color: #00b39b;
+font-size: 2.125rem;
+text-align: center;
+text-transform: none;
+
+}
+
+.coll-1{
+    margin-left: 30px;
+}
+
+.coll-2{
+   
+    margin-left: 30px; 
+    
+}
+.grid{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 0;
+}
+div p{
+
+    letter-spacing: 1px;
+}
+.flexbox {
+    background-color: #ffffff;
+    padding: 2em 2em 0;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /* border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+/* .title1 {
+    color: #fff;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.title2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+} */
+.coll1 {
+    width: 33.33%;
+    height: auto;
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+    padding: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   border-radius: 10px;
+   
+   font-weight: 300;
+  
+
+}
+.coll2{
+    height: auto;
+    background: #3d83df;
+    color: #fff;
+    text-shadow: none;
+    padding: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   border-radius: 10px;
+    font-weight: 300;
+
+}
+.coll3{
+    height: auto;
+    background: #1b2734;
+    color: #fff;
+    text-shadow: none;
+    padding: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+       border-radius: 10px;
+    font-weight: 300;
+   
+    
+}
+
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+
+}
+.title1{
+
+    font-size: 25px;
+    margin-left: 25px;
+}
+.title2{
+    font-size: medium;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.title3 {
+    font-size: 25px;
+    margin-left: 25px;
+
+}
+.title4 {
+    font-size: medium;
+    margin-left: 25px;
+    font-weight: normal;
+
+}
+.title5 {
+    font-size: 25px;
+    margin-left: 25px;
+}
+.title6 {
+    font-size: medium;
+    margin-left: 25px;
+    font-weight: normal;
+
+
+}
+.pays1{
+color: #fff;
+font-family: Roboto,Arial,sans-serif;
+letter-spacing: .04em;
+font-size: medium;
+margin-left: 15px;
+
+}
+.style-select {
+
+    position: relative;
+display: inline-block;
+vertical-align: middle;
+outline: 0;
+background: none;
+border: 0;
+color: #fff;
+font-family: Roboto,Arial,sans-serif;
+font-weight: 400;
+letter-spacing: .04em;
+font-size: 1.2rem;
+text-align: center;
+}
+.brand{
+    float: none;
+    padding: 0;
+    text-align: center;
+    color: #00b39b;
+    width: 100%;
+
+}
+.brandlogo{    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    float: none;
+    padding: 0;
+    text-align: center;
+    color: #a5a5a5;
+    
+    
+
+}
+.section{
+    display: flex;
+    justify-content: center;
+
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.brandlogo li{
+    font-size: 1rem;
+    
+}
+.brandlogo a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+}
+.section .brandlogo {
+
+    display: flex;
+
+}
+.brandlogo li {
+    padding-left: 0;
+    text-align: center;
+    width: 33.33333%;
+}
+.tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+img :not(petit_logo){
+
+    max-width: 100%;
+    height: auto;
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+.jemeda img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+.gipo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+.feegow img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+
+.col-2 h1{
+
+    text-align: center;
+    color: #00b39b;
+    text-transform: none;
+}
+.col-2 p{display: block;
+    text-align: center;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.vert-align {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+}
+.vert-align div{
+
+    display: block;
+}
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
